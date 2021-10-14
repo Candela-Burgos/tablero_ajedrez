@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(129, 113, 89);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajedrez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+    /* margin: 0 auto; */
+}
+
+.ajedrez>.fila1, .ajedrez>.fila2, .ajedrez>.fila3, .ajedrez>.fila4, .ajedrez>.fila5, .ajedrez>.fila6, .ajedrez>.fila7, .ajedrez>.fila8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+/************
+    White
+************/
+
+.white{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/************
+    Black
+************/
+
+.black{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
