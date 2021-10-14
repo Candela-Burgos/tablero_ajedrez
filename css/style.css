@@ -52,3 +52,85 @@ body{
     width: 100%;
     height: 100%;
 }
+
+
+/**************
+  Media query
+**************/
+
+@media (max-width: 1360px){
+    .ajedrez{
+        max-width: 30%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 1200px){
+    .ajedrez{
+        max-width: 35%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 1000px){
+    .ajedrez{
+        max-width: 34%;
+        max-height: 40%;
+    }
+}
+
+@media (max-width: 800px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 38%;
+    }
+}
+
+@media (max-width: 700px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 35%;
+    }
+}
+
+@media (max-width: 600px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 30%;
+    }
+}
+
+@media (max-width: 550px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 28%;
+    }
+}
+
+@media (max-width: 400px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 450px){
+    .ajedrez{
+        max-width: 35%;
+        max-height: 20%;
+    }
+}
+
+@media (max-width: 375px){
+    .ajedrez{
+        max-width: 38%;
+        max-height: 18%;
+    }
+}
+
+@media (max-width: 360px){
+    .ajedrez{
+        max-width: 40%;
+        max-height: 18%;
+    }
+}
